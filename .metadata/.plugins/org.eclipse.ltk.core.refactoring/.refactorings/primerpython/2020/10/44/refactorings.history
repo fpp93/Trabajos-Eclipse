@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;primerpython/Act1y2/__init__.py&apos; to &apos;Act1.py&apos;" description="Rename resource &apos;__init__.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Act1y2/__init__.py" name="Act1.py" stamp="1603713045981" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;primerpython/pruebapython/__init__.py&apos; to &apos;Act2.py&apos;" description="Rename resource &apos;__init__.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="pruebapython/__init__.py" name="Act2.py" stamp="1603713054066" updateReferences="true"/>
+</session>

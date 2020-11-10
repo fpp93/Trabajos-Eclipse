@@ -1,0 +1,14 @@
+'''
+Created on 6 nov. 2020
+
+@author: Francisco
+'''
+
+
+
+cuentas = {"sevilla" : [300,450], "madrid" : [400,300], "segovia" : [500,350], "valencia" :[450,300]} 
+cuentasMadridYSegovia = purse['madrid']+purse['segovia']
+cuentas["sevilla"] = cuentas["sevilla"] + [True]
+#sumaIngresos = ???
+
+print(cuentasMadridYSegovia)

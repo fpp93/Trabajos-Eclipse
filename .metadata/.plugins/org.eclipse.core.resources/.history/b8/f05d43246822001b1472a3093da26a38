@@ -1,0 +1,18 @@
+package Ejercicio3;
+
+import Ejercicio1.Cocina;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		HiloImpar hiloimpar = new HiloImpar();
+		hiloimpar.setName("HILO IMPAR");
+		HiloPar hilopar = new HiloPar();
+		hiloimpar.setName("HILO PAR");
+
+	}
+
+}

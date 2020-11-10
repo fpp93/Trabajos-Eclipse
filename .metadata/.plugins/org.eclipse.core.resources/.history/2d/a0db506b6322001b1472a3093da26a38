@@ -1,0 +1,74 @@
+package Ejercicio2;
+
+public class Atletas extends Thread {
+	
+	
+	
+	public  Atletas(){
+		
+		
+	}
+	
+	
+	
+
+	int velocidad;
+	
+	public void run() {
+		
+		
+		System.out.println(getName());
+		
+		if(this.getName().equalsIgnoreCase("Greene")) {
+			velocidad=(int)Math.random()*1+10;
+			for(int i = 0; i<=velocidad;i++) {
+				
+				
+				System.out.print("-");
+				
+				try {
+					Thread.sleep(1000);
+					
+				}catch(InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+			System.out.println();
+		}
+		if(this.getName().equalsIgnoreCase("Johnson")) {
+			velocidad=(int)Math.random()*1+10;
+			for(int i = 0; i<=velocidad;i++) {
+				
+				
+				System.out.print("-");
+				
+				try {
+					Thread.sleep(1000);
+					
+				}catch(InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+			System.out.println();
+		}
+		if(this.getName().equalsIgnoreCase("Bolt")) {
+			velocidad=(int)Math.random()*1+10;
+			for(int i = 0; i<=velocidad;i++) {
+				
+				
+				System.out.print("-");
+				
+				try {
+					Thread.sleep(1000);
+					
+				}catch(InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+			System.out.println();
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package Ejercicio1;
+
+public class Cocina extends Thread {
+	
+	
+	public Cocina() {
+		
+	}
+
+	public void run() {
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;HilosInterfaz.Main&apos; to &apos;Main_hilos&apos;&#x0D;&#x0A;- Original project: &apos;PSP&apos;&#x0D;&#x0A;- Original element: &apos;HilosInterfaz.Main&apos;&#x0D;&#x0A;- Renamed element: &apos;HilosInterfaz.Main_hilos&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;HilosInterfaz{Main.java[Main" matchStrategy="1" name="Main_hilos" qualified="false" references="true" similarDeclarations="false" stamp="1604856142665" textual="false" version="1.0"/>
+</session>

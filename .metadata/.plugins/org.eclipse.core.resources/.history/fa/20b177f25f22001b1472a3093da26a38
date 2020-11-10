@@ -1,0 +1,19 @@
+package Ejercicio1;
+
+public class Cocina extends Thread {
+	
+	
+	public Cocina() {
+		
+	}
+
+	int clientes=(int)Math.random()*1+5;
+	public void run() {
+		
+		
+		
+		
+		
+		
+	}
+}

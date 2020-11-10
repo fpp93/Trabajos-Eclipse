@@ -1,0 +1,27 @@
+package HilosInterfaz;
+
+import HilosHerencia.HilosEjemplo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		HilosEjemplo hilo1= new HilosEjemplo();
+		hilo1.setName("corredor-1");
+		HilosEjemplo hilo2= new HilosEjemplo();
+		hilo2.setName("Corredor-2");
+		HilosEjemplo hilo3= new HilosEjemplo();
+		hilo3.setName("Corredor-3");
+		
+		
+		System.out.println("Inicio de la carrera");
+		
+		hilo1.start();
+		
+		System.out.println("Fin de la carrera");
+
+	}
+
+}

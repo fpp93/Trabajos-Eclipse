@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;primerpython/Actividad5/__init__.py&apos; to &apos;Persona.py&apos;" description="Rename resource &apos;__init__.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Actividad5/__init__.py" name="Persona.py" stamp="1604927113710" updateReferences="true"/>
+</session>

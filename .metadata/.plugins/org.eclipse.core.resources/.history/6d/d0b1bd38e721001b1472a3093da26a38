@@ -1,0 +1,28 @@
+package HilosHerencia;
+
+public class Main {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		HilosEjemplo hilo1= new HilosEjemplo();
+		hilo1.setName("Pepe");
+		HilosEjemplo hilo2= new HilosEjemplo();
+		hilo2.setName("Manolo");
+		HilosEjemplo hilo3= new HilosEjemplo();
+		hilo3.setName("Juan");
+		
+		
+		System.out.println("Inicio de la carrera");
+		//hilo1.start();
+		
+		//hilo2.start();
+		
+		//hilo3.start();
+		
+		System.out.println("Fin de la carrera");
+		
+
+	}
+
+}

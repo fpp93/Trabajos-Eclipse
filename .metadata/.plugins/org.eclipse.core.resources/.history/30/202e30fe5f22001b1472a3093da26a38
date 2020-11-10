@@ -1,0 +1,25 @@
+package Ejercicio1;
+
+public class Cocina extends Thread {
+	
+	
+	public Cocina() {
+		
+	}
+
+	int clientes=(int)Math.random()*1+5;
+	public void run() {
+		
+		for(int i=0;i<clientes;i++) {
+			System.out.println("Entra un nuevo cliente");
+			int preparacion=(int)Math.random()*1+5;
+			for(int x=0;x<preparacion;x++) {
+				System.out.println(this.getName()+":Preparando plato...");
+			}
+		}
+		
+		
+		
+		
+	}
+}

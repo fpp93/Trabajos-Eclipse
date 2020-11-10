@@ -1,0 +1,81 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Francisco\eclipse-workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\primerpython\com.python.pydev.analysis\v2_indexcache
+Act1y2.Act4_ejemplo1|1604668485944881000|C:\Users\Francisco\eclipse-workspace\primerpython\Act1y2\Act4_ejemplo1.py
+Actividad5.Empleado|1604928258448920000|C:\Users\Francisco\eclipse-workspace\primerpython\Actividad5\Empleado.py
+Act1y2.Act4_ejemplo2|1604919903324382000|C:\Users\Francisco\eclipse-workspace\primerpython\Act1y2\Act4_ejemplo2.py
+Act1y2.Act4_ejemplo3|1604920723065920000|C:\Users\Francisco\eclipse-workspace\primerpython\Act1y2\Act4_ejemplo3.py
+Actividad5.Persona|1604928117435430000|C:\Users\Francisco\eclipse-workspace\primerpython\Actividad5\Persona.py
+Act1y2.Act4_ejemplo4|1604926783419476000|C:\Users\Francisco\eclipse-workspace\primerpython\Act1y2\Act4_ejemplo4.py
+Act1y2.Act3|1604063894293651000|C:\Users\Francisco\eclipse-workspace\primerpython\Act1y2\Act3.py
+Act1y2.Act2|1603717617510729000|C:\Users\Francisco\eclipse-workspace\primerpython\Act1y2\Act2.py
+Act1y2.Act1|1603716490956729000|C:\Users\Francisco\eclipse-workspace\primerpython\Act1y2\Act1.py
+prueba|1603714877273259000|C:\Users\Francisco\eclipse-workspace\primerpython\prueba.py
+-- END DISKCACHE
+-- START DICTIONARY
+24
+16=Actividad5.Empleado
+22=Persona
+18=Actividad5.Persona
+19=C:\Users\Francisco\eclipse-workspace\primerpython\prueba.py
+6=Act1y2.Act3
+17=C:\Users\Francisco\eclipse-workspace\primerpython\Actividad5\Persona.py
+2=Act1y2.Act2
+23=Empleado.__init__
+4=Act1y2.Act1
+20=prueba
+5=C:\Users\Francisco\eclipse-workspace\primerpython\Act1y2\Act3.py
+15=C:\Users\Francisco\eclipse-workspace\primerpython\Actividad5\Empleado.py
+24=Persona.__init__
+3=C:\Users\Francisco\eclipse-workspace\primerpython\Act1y2\Act1.py
+11=C:\Users\Francisco\eclipse-workspace\primerpython\Act1y2\Act4_ejemplo1.py
+12=Act1y2.Act4_ejemplo1
+1=C:\Users\Francisco\eclipse-workspace\primerpython\Act1y2\Act2.py
+14=Act1y2.Act4_ejemplo2
+21=Empleado
+10=Act1y2.Act4_ejemplo3
+8=Act1y2.Act4_ejemplo4
+7=C:\Users\Francisco\eclipse-workspace\primerpython\Act1y2\Act4_ejemplo4.py
+9=C:\Users\Francisco\eclipse-workspace\primerpython\Act1y2\Act4_ejemplo3.py
+13=C:\Users\Francisco\eclipse-workspace\primerpython\Act1y2\Act4_ejemplo2.py
+-- END DICTIONARY
+-- START TREE 1
+28
+alt|3|alto!1^18#1*19@alto!3^12#1*35@altura!1^11#1*19@
+bus|2|buscar!5^6#1*51@buscar!7^40#1*67@
+con|1|contador!7^41#1*67@
+cue|4|cuentas!9^8#1*83@cuentas!11^8#1*99@cuentas!13^9#1*115@cuentasMadridYSegovia!13^11#1*115@
+dic|1|dic!7^12#1*67@
+dos|2|dosPrimeros!11^12#1*99@dosUltimos!11^13#1*99@
+eda|2|edad!3^5#1*35@edad!1^8#1*19@
+emp|1|Empleado!15^7#7*129@
+get|3|get_edad!17^34#5*146@get_residencia!17^40#5*146@get_nombre!17^28#5*146@
+imp|1|impares!11^10#1*99@
+lis|2|lista!7^10#1*67@lista!5^2#1*51@
+may|1|mayor!5^4#1*51@
+med|2|medio!3^11#1*35@medio!1^17#1*19@
+men|2|mensaje!9^18#1*83@menor!5^5#1*51@
+met|1|metros!19^7#1*163@
+nom|2|nombre!3^3#1*35@nombre!1^6#1*19@
+pal|2|palabramax!7^26#1*67@palabra!7^11#1*67@
+par|1|pares!11^11#1*99@
+per|1|Persona!17^8#7*145@
+poc|2|poco!1^16#1*19@poco!3^10#1*35@
+pri|1|primeroYultimo!11^14#1*99@
+san|2|sangre!3^8#1*35@sangre!1^14#1*19@
+set|3|set_residencia!17^37#5*146@set_edad!17^31#5*146@set_nombre!17^25#5*146@
+sum|1|sumaIngresos!13^13#1*115@
+tex|1|texto!7^8#1*67@
+tos|1|toString!17^44#5*146@
+val|1|valormax!7^27#1*67@
+yar|1|yardas!19^5#1*163@
+-- END TREE
+-- START TREE 2
+6
+__i|2|__init__!21&15^12#9*130@__init__!22&17^17#9*146@
+_an|2|_antiguedad!21&15^9#5*131@_antiguedad!23&15^15#9*131@
+_ed|2|_edad!22&17^11#5*147@_edad!24&17^20#9*147@
+_no|2|_nombre!22&17^10#5*147@_nombre!24&17^19#9*147@
+_re|2|_residencia!22&17^12#5*147@_residencia!24&17^21#9*147@
+_sa|2|_salario!21&15^8#5*131@_salario!23&15^14#9*131@
+-- END TREE

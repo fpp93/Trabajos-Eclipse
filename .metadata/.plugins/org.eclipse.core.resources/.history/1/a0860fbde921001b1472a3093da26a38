@@ -1,0 +1,38 @@
+package Hilos;
+
+public class HilosEjemplo implements Runnable {
+	
+	Thread hilo;
+	boolean suspender;
+	boolean pausar;
+	
+	 HilosEjemplo (String nombre){
+	        hilo=new Thread(this,nombre);
+	        suspender=false;
+	        pausar=false;
+	    }
+
+
+	
+	//Pausar el hilo
+    synchronized void pausarhilo(){
+        pausar=true;
+        //lo siguiente garantiza que un hilo suspendido puede detenerse.
+        suspender=false;
+        notify();
+    }
+
+
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+		System.out.println(Thread.currentThread().getName()+":"+"Despertarse");
+		System.out.println(Thread.currentThread().getName()+":"+"Ducharse");
+		System.out.println(Thread.currentThread().getName()+":"+"Desayunar");
+		System.out.println(Thread.currentThread().getName()+":"+"Trabajar");
+			
+		
+	}
+	}

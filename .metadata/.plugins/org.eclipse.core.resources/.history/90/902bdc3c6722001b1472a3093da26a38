@@ -1,0 +1,30 @@
+package Ejercicio3;
+
+public class HiloImpar extends Thread {
+	
+	
+	
+	
+	
+	public HiloImpar() {
+		
+	
+	}
+	
+	for(int i=0;i<=6;i++) {
+		int impar=(int)(Math.random()*20+1);
+		if(impar%2==0) {
+			impar++;
+		}
+	}
+	
+	
+	public void run() {
+		
+		
+		
+	}
+	
+	
+
+}

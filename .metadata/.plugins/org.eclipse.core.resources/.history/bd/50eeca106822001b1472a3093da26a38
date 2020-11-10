@@ -1,0 +1,16 @@
+package Ejercicio3;
+
+import Ejercicio1.Cocina;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		HiloImpar hiloimpar = new HiloImpar();
+		HiloPar hilopar = new HiloPar();
+
+	}
+
+}
