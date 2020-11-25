@@ -5,44 +5,42 @@ Created on 9 nov. 2020
 '''
 
 
-class Persona():
+class Persona:
     
-    _nombre=""
-    _edad=0
-    _residencia=""
+    def __init__ (self, nombre, edad, residencia):
+        self.__nombre = nombre
+        self.__edad = edad
+        self.__residencia = residencia
+    
+    @property
+    def nombre(self):
+        return self.__nombre
+    
+    @nombre.setter
+    def nombre(self,nombre):
+        self.__nombre = nombre
+    
+    @property
+    def edad(self):
+        return self.__edad
+    
+    @edad.setter
+    def edad(self,edad):
+        self.__edad = edad
+    
+    @property
+    def residencia(self):
+        return self.__residencia
+    
+    @residencia.setter
+    def residencia(self,residencia):
+        self.__residencia = residencia
     
     
-
-
-    def __init__(self, nombre,edad,residencia):
-        
-        self._nombre=nombre
-        self._edad=edad
-        self._residencia=residencia
-        
-        
-        
-def set_nombre(self, nombre):
-    self._nombre = nombre
-
-def get_nombre(self):
-    return self._nombre
-
-def set_edad(self, edad):
-    self._edad = edad
-
-def get_edad(self):
-    return self._edad
-
-def set_residencia(self, residencia):
-    self._residencia = residencia
-
-def get_residencia(self):
-    return self.residencia
-
-
-def toString(self):
-    return "Nombre:", self._nombre," Edad:",self._edad," Residencia:",self._residencia
+    
+    
+    def Descripcion(self):
+        return "Nombre:", self.__nombre," Edad:",self.__edad," Residencia:",self.__residencia
 
 
 
