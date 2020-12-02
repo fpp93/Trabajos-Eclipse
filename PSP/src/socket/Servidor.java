@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
+
 import socket.Conexion;
 
 public class Servidor extends Conexion //Se hereda de conexión para hacer uso de los sockets y demás
@@ -12,6 +14,9 @@ public class Servidor extends Conexion //Se hereda de conexión para hacer uso de
 
     public void startServer()//Método para iniciar el servidor
     {
+    	  Thread hilo = new Thread(new Runnable() {
+              @Override
+              public void run() {
         try
         {
             System.out.println("Esperando..."); //Esperando conexión
@@ -19,12 +24,15 @@ public class Servidor extends Conexion //Se hereda de conexión para hacer uso de
             cs = ss.accept(); //Accept comienza el socket y espera una conexión desde un cliente
 
             System.out.println("Cliente en línea");
-
+            Scanner teclado = new Scanner(System.in);
+          
             //Se obtiene el flujo de salida del cliente para enviarle mensajes
             salidaCliente = new DataOutputStream(cs.getOutputStream());
-
+            salidaCliente.flush();
+            
+           
             //Se le envía un mensaje al cliente usando su flujo de salida
-            salidaCliente.writeUTF("Petición recibida y aceptada");
+          
 
             //Se obtiene el flujo entrante desde el cliente
             BufferedReader entrada = new BufferedReader(new InputStreamReader(cs.getInputStream()));
@@ -32,7 +40,11 @@ public class Servidor extends Conexion //Se hereda de conexión para hacer uso de
             while((mensajeServidor = entrada.readLine()) != null) //Mientras haya mensajes desde el cliente
             {
                 //Se muestra por pantalla el mensaje recibido
+            	String mensaje=teclado.nextLine();
                 System.out.println(mensajeServidor);
+                salidaCliente.writeUTF("servidor"+":"+mensaje+"\n");
+                salidaCliente.flush();
+                
             }
 
             System.out.println("Fin de la conexión");
@@ -43,5 +55,8 @@ public class Servidor extends Conexion //Se hereda de conexión para hacer uso de
         {
             System.out.println(e.getMessage());
         }
+    }
+    	  });
+    	  hilo.start();
     }
 }

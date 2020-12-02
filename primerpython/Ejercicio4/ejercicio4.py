@@ -52,4 +52,5 @@ while(cont<5):
     
     
     
-nueva_lista(lista)
+sustituir(lista)
+print(lista)
