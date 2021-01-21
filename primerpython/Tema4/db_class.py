@@ -8,10 +8,8 @@ from sqlite3 import Error
 
 class DB:
     
-    def __init__ (self, filename=":memory",con,cur):
+    def __init__ (self, filename=":memory"):
         self.filename= filename
-        self.con = con
-        self.cur = cur
         try:
             con = sqlite3.connect(filename)
             print("Conexion a",filename)
@@ -19,7 +17,7 @@ class DB:
             print(Error)
             con=None
         finally:
-            return con
+            return None
         
         
     def sql_crearTabla(self,con):
@@ -49,13 +47,12 @@ class DB:
         except sqlite3.OperationalError:
             print("error de insercion")
             
-    def sql_select(self,con):
+    def sql_select(self,con,consulta):
         try:
             cur = con.cursor()
-            cur.execute("SELECT * FROM empleados")
-            rows=cur.fetchall()
-            for row in rows:
-                print(row)
+            cur.execute(consulta)
+            data=cur.fetchall()
+            return data
         
         except sqlite3.OperationalError:
             print("ERROR EN SELECT")

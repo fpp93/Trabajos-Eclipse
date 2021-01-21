@@ -4,6 +4,7 @@ Created on 14 dic. 2020
 @author: Francisco
 '''
 import sqlite3
+from Tema4 import db_class
 from sqlite3 import Error
 
 def sql_connection(filename):
@@ -87,8 +88,29 @@ def sql_insert_txt(con):
         except sqlite3.OperationalError:
             print("error en insert")
            
-        
-        
+def sql_csv(con):
+        try:
+            db = db_class.DB("prueba")
+            
+            programadores = open("Programadores.csv", "w")
+
+            programadores.write("nombre,salario anual,fecha contratacion,categoria\n")
+            
+            data=db.sql_select(con,"SELECT nombre,salario,fecha_contratacion,categoria FROM empleados WHERE categoria='Programador'")
+            
+            
+            for i in data:
+                programadores.write(i[0]+","+str(i[1])+","+i[2]+","+i[3]+"\n")
+            
+            programadores.close()
+            print("csv generado con exito")
+
+        except Error as e:
+            print(e)
+
+
+        finally:
+            con.close()
         
         
         

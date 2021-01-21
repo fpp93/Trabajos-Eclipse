@@ -1,0 +1,9 @@
+departamento,categoria,salario
+'Comercial','Administrativo',15100.0
+'Financiero','Analista',71200.0
+'Financiero','Ayudante',15100.0
+'Comercial','Comercial',81200.0
+'Comercial','Director Comercial',46100.0
+'Gerencia','Gerente',64100.0
+'Informatica','Programador',68400.0
+'PostVenta','Reponedor',18100.0
